@@ -1,6 +1,84 @@
 <!DOCTYPE html>
 <html>
+	<style>
+	html{
+		/*background-image: url("images/bg_home_street.jpg");*/
+		background-color: white;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		height: 100%;
+		text-align: center;
+	}
+	#name{
+	    text-align: center;
+	    font-size: 3.5em;
+	    width: 60%;
+	    margin: 0 auto;
+	    padding: 8px;
+	    font-weight: 100;
+	    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	    color: #009900;
+	}
+	.page-footer-hr{
+	    width: 72%;
+	    border: 0;
+	    height: 1px;
+	    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+	.bio_face{
+	    text-align: center;
+	    margin: 0 auto;
+	    display: block;
+	}
+	#circle{
+	    border-radius: 50% 50% 50% 50%;
+	    width: 250px;
+	    height: 250px;
+	    -moz-box-shadow: 2px 2px 3px 3px #ccc;
+	    -webkit-box-shadow: 2px 2px 3px 3px #ccc;
+	    box-shadow: 2px 2px 3px 3px #ccc;
+	}
+	#buttons {
+	    display: flex;
+	    justify-content: center;
+	    width: 30%;
+	    margin: 0 auto;
+	    padding: 17px;
+	}
+	.link {
+	    height: auto;
+	    width: 75%;
+	}
+	</style>
+	<head>
+		<title>Aditya Saha</title>
+		<link rel="icon" href="images/bio2.jpg">
+	</head>
 	<body>
-		<script src="scripts/main.js"></script>
-	</body>
+		<div id="name">
+            <p><span style="color: grey">Aditya Saha</span></p>
+            <div>
+                <hr class="page-footer-hr">
+            </div>
+        </div>
+        <div class="bio_face">
+            <a class="email" href="mailto:aditya.saha@mail.mcgill.ca">
+                <img src="images/bio2.jpg" id="circle" alt="Say hi!" title="Say hi!">
+            </a>
+        </div>
+        <p><i>Hi I'm Aditya</i></p> 
+
+        <div id="buttons">
+            <a href="https://github.com/asaha2">
+                <img class="link" src="images/github.png" alt="github" title="My GitHub." onmouseover="this.src='images/github2.png';" onmouseout="this.src='images/github.png';">
+            </a>
+            <a href="https://www.facebook.com/saha.adi">
+                <img class="link" src="images/facebook.png" alt="facebook" title="My Facebook." onmouseover="this.src='images/facebook2.png';" onmouseout="this.src='images/facebook.png';">
+            </a>
+            <a href="mailto:aditya.saha@mail.mcgill.ca">
+                <img class="link" src="images/send-symbol2.png" alt="mail" title="My Email." onmouseover="this.src='images/send-symbol.png';" onmouseout="this.src='images/send-symbol2.png';">
+            </a>
+        </div>
+	</body>	
 </html>

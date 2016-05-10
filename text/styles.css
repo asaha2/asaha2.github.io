@@ -1,0 +1,16 @@
+body
+{
+  background: url(images/bg_home_street.jpg);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.Content
+{
+  width: 100%;
+  max-width: 300px;
+  min-height: 100vh;
+  margin: 0 0 0 auto;
+  background: #fff;
+}
